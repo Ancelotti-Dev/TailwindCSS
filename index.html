@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html class="scroll-smooth" lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -11,21 +11,21 @@
 <body>
   <nav class="p-4 fixed top-0 w-full z-50 text-center bg-blue-300 rounded-3x1">
     <img class="w-20 m-5 rounded-full mask-radial-at-center" src="images/logo.png">
-    <a class="p-1 transition delay-300 duration-300 ease-in-out text-center font-bold bg-blue-400 hover:bg-blue-600 rounded-2xl"
-      href="#inicio">inicio</a>
-    <a class="p-1 transition delay-300 duration-300 ease-in-out text-center  font-bold bg-blue-400 hover:bg-blue-600 rounded-2xl"
+    <a class="p-1 transition delay-300 xl:mx-12 duration-300 ease-in-out text-center font-bold bg-blue-400 hover:bg-blue-600 rounded-2xl"
+      href="#inicio">Inicio</a>
+    <a class="p-1 transition delay-300 xl:mx-12 duration-300 ease-in-out text-center  font-bold bg-blue-400 hover:bg-blue-600 rounded-2xl"
       href="#produtos">Produtos</a>
-    <a class="p-1 transition delay-300 duration-300 ease-in-out text-center  font-bold bg-blue-400 hover:bg-blue-600 rounded-2xl"
+    <a class="p-1 transition delay-300 xl:mx-12 duration-300 ease-in-out text-center  font-bold bg-blue-400 hover:bg-blue-600 rounded-2xl"
       href="#depoimentos">Depoimentos</a>
-    <a class="p-1 transition delay-300 duration-300 ease-in-out tracking-wide font-bold bg-blue-400 hover:bg-blue-600 focus:bg-blue-800 rounded-2xl"
+    <a class="p-1 transition delay-300 xl:mx-12 duration-300 ease-in-out tracking-wide font-bold bg-blue-400 hover:bg-blue-600 focus:bg-blue-800 rounded-2xl"
       href="#contato">Contato</a>
   </nav>
 
-  <div id="inicio" class="bg-white w-100 h-110 mx-3 mt-50 border rounded-2xl shadow-lg p-4">
+  <div id="inicio" class="bg-white w-100 h-110 xl:w-150 xl:h-100 duration-300 ease-in-out inset-shadow-sm inset-shadow-blue-500 ml-3 mr-3 mt-50 border rounded-2xl shadow-xl/20 p-4">
     <img class="w-40 float-start rounded-3xl" src="images/logo.png">
-    <p class="text-center">Seja bem vindo ao maior PetShop da Ámerica Latina, A PetStyle foi fundada em 2013 com o proposito de deixar os pais de pet felizes com seus pets estilos e bem cuidados!!!</p>
+    <p class="font-medium tracking-tight">Seja bem vindo ao maior PetShop da Ámerica Latina, A PetStyle foi fundada em 2013 com o proposito de deixar os pais de pet felizes com seus pets estilos e bem cuidados!!!</p>
     <img class="w-45 mt-10 border-2 float-end rounded-3xl" src="images\gato-cao.jpg">
-    <img class="w-35 border-2 float-start rounded-3xl" src="images\hamsters.jpg">
+    <img class="w-35 border-2 float-start xl:m-5 rounded-3xl" src="images\hamsters.jpg">
     <img class="w-25 ml-15 mt-2 border-2 float-start rounded-3xl" src="images\dog_estiloso.jpg">
   </div>
 
@@ -33,7 +33,7 @@
 
   <div>
     <h2 id="produtos" class="p-4 m-12 mb-6 text-center font-medium ml-5 mr-40 text-white bg-blue-500 rounded-2xl">Produtos</h2>
-    <div class="p-2.5 text-center  font-medium ml-5 mr-60 xl:w-45 bg-blue-800 text-white rounded-2xl">Caminhas</div>
+    <div class="p-2.5 text-center w-25  font-medium ml-5 mr-60 xl:w-45 bg-blue-800 text-white rounded-2xl">Caminhas</div>
     <div class="grid grid-cols-3 gap-6 p-6">
       <div class="bg-white border rounded-2xl shadow-xl/30 p-4 flex flex-col items-center hover:bg-gray-300">
         <img class="w-24 h-24 object-cover rounded-full mb-2" src="images/caminha.jpg" alt="Caminha">
@@ -60,7 +60,7 @@
         </p>
       </div>
     </div>
-    <div class="p-2.5 text-center font-medium ml-5 mr-60 xl:w-45 bg-blue-800 text-white rounded-2xl">Acessórios</div>
+    <div class="p-2.5 text-center w-25 font-medium ml-5 mr-60 xl:w-45 bg-blue-800 text-white rounded-2xl">Acessórios</div>
     <div class="grid grid-cols-3 gap-6 p-6">
       <div class="bg-white border hover:bg-gray-300 rounded-2xl shadow-xl/30 p-4 flex flex-col items-center">
         <img class="w-24 h-24 object-cover rounded-full mb-2" src="images/roupas.jpg" alt="Roupas">
@@ -84,7 +84,7 @@
         </p>
       </div>
     </div>
-    <div class="p-2.5 text-center font-medium ml-5 mr-60  xl:w-45 bg-blue-800 text-white rounded-2xl">Brinquedos</div>
+    <div class="p-2.5 text-center font-medium ml-5 mr-60 w-25 xl:w-45 bg-blue-800 text-white rounded-2xl">Brinquedos</div>
     <div class="grid grid-cols-3 gap-6 p-6">
       <div class="border rounded-2xl  bg-white hover:bg-gray-300 p-4 flex flex-col items-center">
         <img class="w-24 h-24 object-cover shadow-xl/30  text-cente rounded-full mb-2" src="images/brinquedo.jpg"
@@ -111,7 +111,7 @@
     </div>
 
     <h2 class="p-4 text-center font-medium ml-5 mr-40 bg-blue-500 text-white  rounded-2xl" id="depoimentos">Depoimentos</h2>
-    <div class="bg-white hover:bg-gray-500 shadow-2xl/30  rounded-2xl shadow-xl p-4 flex flex-col items-center">
+    <div class="bg-white hover:bg-gray-200 shadow-2xl/30  rounded-2xl shadow-xl p-4 flex flex-col items-center">
       <div class="p-4 w-full bg-gray-200 mb-6 hover:bg-gray-300  rounded-2xl">
         <img class="w-15 h-15 mb-2 rounded-full" src="images/pedro.jpg">
         <h3 class="font-bold text-2x1">Caio Sousa</h3>
@@ -136,14 +136,14 @@
     </div>
     <div>
       <h2 class="p-4 m-4 text-center font-medium ml-5 mr-40 bg-blue-500 text-white rounded-2xl" id="contato">Contato</h2>
-      <div class="p-4 w-full bg-gray-200 mb-6 hover:bg-gray-300 shadow-2xl/30 rounded-2xl">
-        <h3 class="font-serif">Digite seu nome:</h3>
-        <input class="border-2 pl-8 hover:border-blue-600 rounded-2xl mb-7">
-        <h3 class="font-serif">Email:</h3>
-        <input class="border-2 pl-8 focus:border-blue-600 rounded-2xl mb-7" placeholder="exemplo@gmail.com">
-        <h3 class="font-serif">Mensagem:</h3>
-        <input class="border-2 p-14 focus:border-blue-600 rounded-2xl mb-7">
-        <button class="bg-blue-400 m-2 p-2 text-white rounded-2xl hover:bg-blue-500 ">Enviar</button>
+      <div class="p-4 w-full bg-gray-200 mb-6 hover:bg-gray-200 shadow-2xl/30 rounded-2xl">
+        <h3 class="font-serif xl:text-center">Digite seu nome:</h3>
+        <input class="border-2 pl-8 hover:border-blue-600 xl:w-200 rounded-4xl xl:h-15 mb-7 xl:text-center xl:m-14 xl:ml-130">
+        <h3 class="font-serif xl:text-center">Email:</h3>
+        <input class="border-2 pl-8 hover:border-blue-600 xl:w-200 rounded-4xl xl:h-15  mb-7 xl:text-center xl:m-14 xl:ml-130" placeholder="exemplo@gmail.com">
+        <h3 class="font-serif xl:text-center">Mensagem:</h3>
+        <input class="border-2 p-14 hover:border-blue-600 rounded-2xl mb-7 xl:text-center xl:m-14 xl:ml-130">
+        <button class="bg-blue-400 m-2 p-2 text-white rounded-2xl hover:bg-blue-500 xl:text-center">Enviar</button>
       </div>
     </div>
 
