@@ -9,81 +9,145 @@
 </head>
 
 <body>
-  <nav class="p-4 text-center bg-blue-300 rounded-3x1">
+  <nav class="p-4 fixed top-0 w-full z-50 text-center bg-blue-300 rounded-3x1">
     <img class="w-20 m-5 rounded-full mask-radial-at-center" src="images/logo.png">
-    <a class="p-2 transition delay-300 duration-300 ease-in-out text-center m-3 font-bold bg-blue-400 hover:bg-blue-600 rounded-2xl" href="#produtos">Produtos</a>
-    <a class="p-2 transition delay-300 duration-300 ease-in-out text-center m-3 font-bold bg-blue-400 hover:bg-blue-600 rounded-2xl" href="#depoimentos">Depoimentos</a>
-    <a class="p-2 transition delay-300 duration-300 ease-in-out m-5 tracking-wide font-bold bg-blue-400 hover:bg-blue-600 focus:bg-blue-800 rounded-2xl" href="#contato">Contato</a>
+    <a class="p-1 transition delay-300 duration-300 ease-in-out text-center font-bold bg-blue-400 hover:bg-blue-600 rounded-2xl"
+      href="#inicio">inicio</a>
+    <a class="p-1 transition delay-300 duration-300 ease-in-out text-center  font-bold bg-blue-400 hover:bg-blue-600 rounded-2xl"
+      href="#produtos">Produtos</a>
+    <a class="p-1 transition delay-300 duration-300 ease-in-out text-center  font-bold bg-blue-400 hover:bg-blue-600 rounded-2xl"
+      href="#depoimentos">Depoimentos</a>
+    <a class="p-1 transition delay-300 duration-300 ease-in-out tracking-wide font-bold bg-blue-400 hover:bg-blue-600 focus:bg-blue-800 rounded-2xl"
+      href="#contato">Contato</a>
   </nav>
-  
-  <h2 id="produtos" class="text-center bg-blue-500 border">Produtos</h2>
-  <div class="p-4 text-center m-3 bg-blue-500 rounded-2xl">Caminhas</div>
-  <div class="grid grid-cols-3 gap-6 p-6">
-    <div class="bg-white border rounded-2xl shadow-xl/30 p-4 flex flex-col items-center hover:bg-gray-300">
-      <img class="w-24 h-24 object-cover rounded-full mb-2" src="images/caminha.jpg" alt="Caminha">
-      <h3 class="font-bold text-center text-lg mb-1">Caminha Pet</h3>
-      <p class="text-gray-600 text-center">Caminha confortável para seu pet descansar com estilo.</p>
-      <p class="text-gray-600 text-center">R$:230</p>
-    </div>
-    <div class="bg-white border hover:bg-gray-200 rounded-2xl shadow-xl/30 p-4 flex flex-col items-center">
-      <img class="w-24 h-24 object-cover text-cente rounded-full mb-2" src="images/caminha_glee.jpg" alt="Caminha Glee">
-      <h3 class="font-bold border-b-3 text-center text-lg mb-1">Caminha Glee</h3>
-      <p class="text-gray-600  border-b-4 text-center">Design moderno e fácil de lavar, ideal para todos os pets.</p>
-      <p class="text-gray-600 text-center">R$:100</p>
-    </div>
-    <div class="bg-white border hover:bg-gray-200 rounded-2xl shadow-xl/30 p-4 flex flex-col items-center transition-colors">
-      <img class="w-24 h-24 object-cover text-cente rounded-full mb-2" src="images/caminha_poof.jpg" alt="Caminha Poof">
-      <h3 class="font-bold text-lg border-b-4 text-center mb-1">Caminha Poof</h3>
-      <p class="text-gray-600 border-b-4 text-center">Super macia, perfeita para o conforto do seu animal.</p>
-      <p class="text-gray-600 text-center">R$:130</p>
-    </div>
-  </div>
-  <div class="p-5 text-left font-medium ml-5 mr-60 bg-blue-500 rounded-2xl">Acessórios</div>
-  <div class="grid grid-cols-3 gap-6 p-6">
-    <div class="bg-white border hover:bg-gray-200 rounded-2xl shadow-xl/30 p-4 flex flex-col items-center">
-      <img class="w-24 h-24 object-cover rounded-full mb-2" src="images/roupas.jpg" alt="Roupas">
-      <h3 class="font-bold text-lg border-b-4 text-center mb-1">Roupas</h3>
-      <p class="text-gray-600 border-b-4 text-center">Roupas estilosas para seu pet.</p>
-      <p class="text-gray-600 text-center">R$:130</p>
-    </div>
-    <div class="bg-white border hover:bg-gray-200 rounded-2xl shadow-xl/30 p-4 flex flex-col items-center">
-      <img class="w-24 h-24 object-cover rounded-full mb-2" src="images/gravata.jpg" alt="Gravata">
-      <h3 class="font-bold text-lg border-b-4 text-center mb-1">Gravata</h3>
-      <p class="text-gray-600 border-b-4 text-center">Gravatas divertidas para ocasiões especiais.</p>
-      <p class="text-gray-600 text-center">R$:130</p>
-    </div>
-    <div class="bg-white hover:bg-gray-200 border rounded-2xl shadow-xl/30 p-4 flex flex-col items-center">
-      <img class="w-24 h-24 object-cover rounded-full mb-2" src="images/coleira.jpg" alt="Coleira">
-      <h3 class="font-bold text-lg border-b-4 text-center mb-1">Coleira</h3>
-      <p class="text-gray-600 border-b-4 text-center">Coleiras confortáveis e seguras.</p>
-      <p class="text-gray-600 text-center">R$:130</p>
-    </div>
-  </div>
-  <div class="p-4 text-center font-medium ml-5 mr-60  bg-blue-500 rounded-2xl">Brinquedos</div>
-  <div class="grid grid-cols-3 gap-6 p-6">
-    <div class="border rounded-2xl  p-4 flex flex-col items-center">
-      <img class="w-24 h-24 object-cover shadow-xl/30  text-cente rounded-full mb-2" src="images/brinquedo.jpg" alt="Brinquedo">
-      <h3 class="font-bold text-lg border-b-4 text-center mb-1">Ossinho</h3>
-      <p class="text-gray-600 border-b-4 text-center">Diversão garantida para seu pet.</p>
-      <p class="text-gray-600 text-center">R$:70</p>
-    </div>
-    <div class="bg-white hover:bg-gray-200 shadow-xl/30  border rounded-2xl shadow-xl p-4 flex flex-col items-center">
-      <img class="w-24 h-24 object-cover rounded-full mb-2" src="images/puxador.jpg" alt="Puxador">
-      <h3 class="font-bold text-lg text-center mb-1">Puxador</h3>
-      <p class="text-gray-600 text-center">Ideal para brincadeiras de puxar.</p>
-      <p class="text-gray-600 text-center">R$:100</p>
-    </div>
-    <div class="bg-white hover:bg-gray-200 shadow-xl/30  border rounded-2xl shadow-xl p-4 flex flex-col items-center">
-      <img class="w-24 h-24 object-cover rounded-full mb-2" src="images/arranhador.jpg" alt="Arranhador">
-      <h3 class="font-bold text-lg text-center mb-1">Arranhador</h3>
-      <p class="text-gray-600 text-center">Perfeito para gatos afiarem as unhas.</p>
-      <p class="text-gray-600 text-center">R$:430</p>
-    </div>
-  </div>
-  <div>
-    <h2 class="bg-blue-900 p-3 text-center" id="depoimentos">Depoimentos</h2>
+
+  <div id="inicio" class="bg-white w-100 h-110 mx-3 mt-50 border rounded-2xl shadow-lg p-4">
+    <img class="w-40 float-start rounded-3xl" src="images/logo.png">
+    <p class="text-center">Seja bem vindo ao maior PetShop da Ámerica Latina, A PetStyle foi fundada em 2013 com o proposito de deixar os pais de pet felizes com seus pets estilos e bem cuidados!!!</p>
+    <img class="w-45 mt-10 border-2 float-end rounded-3xl" src="images\gato-cao.jpg">
+    <img class="w-35 border-2 float-start rounded-3xl" src="images\hamsters.jpg">
+    <img class="w-25 ml-15 mt-2 border-2 float-start rounded-3xl" src="images\dog_estiloso.jpg">
   </div>
 
+
+
+  <div>
+    <h2 id="produtos" class="p-4 m-12 mb-6 text-center font-medium ml-5 mr-40 text-white bg-blue-500 rounded-2xl">Produtos</h2>
+    <div class="p-2.5 text-center  font-medium ml-5 mr-60 xl:w-45 bg-blue-800 text-white rounded-2xl">Caminhas</div>
+    <div class="grid grid-cols-3 gap-6 p-6">
+      <div class="bg-white border rounded-2xl shadow-xl/30 p-4 flex flex-col items-center hover:bg-gray-300">
+        <img class="w-24 h-24 object-cover rounded-full mb-2" src="images/caminha.jpg" alt="Caminha">
+        <h3 class="font-bold text-center border-b-4 text-lg mb-1">Caminha Pet</h3>
+        <p class="text-gray-600 border-b-4 text-center">Caminha confortável para seu pet descansar com estilo.</p>
+        <p class="text-gray-600 font-sm text-center">R$:<span class="text-2xl hover:blur text-green-600">229,99</span>
+        </p>
+      </div>
+      <div class="bg-white border hover:bg-gray-300 rounded-2xl shadow-xl/30 p-4 flex flex-col items-center">
+        <img class="w-24 h-24 object-cover text-cente rounded-full mb-2" src="images/caminha_glee.jpg"
+          alt="Caminha Glee">
+        <h3 class="font-bold border-b-3 text-center text-lg mb-1">Caminha Glee</h3>
+        <p class="text-gray-600  border-b-4 text-center">Design moderno e fácil de lavar, ideal para todos os pets.</p>
+        <p class="text-gray-600 font-sm text-center">R$:<span class="text-2xl  hover:blur text-green-600">99,99</span>
+        </p>
+      </div>
+      <div
+        class="bg-white border hover:bg-gray-300 rounded-2xl shadow-xl/30 p-4 flex flex-col items-center transition-colors">
+        <img class="w-24 h-24 object-cover text-cente rounded-full mb-2" src="images/caminha_poof.jpg"
+          alt="Caminha Poof">
+        <h3 class="font-bold text-lg border-b-4 text-center mb-1">Caminha Poof</h3>
+        <p class="text-gray-600 border-b-4 text-center">Super macia, perfeita para o conforto do seu animal.</p>
+        <p class="text-gray-600 font-sm text-center">R$:<span class="text-2xl  hover:blur text-green-600">129,99</span>
+        </p>
+      </div>
+    </div>
+    <div class="p-2.5 text-center font-medium ml-5 mr-60 xl:w-45 bg-blue-800 text-white rounded-2xl">Acessórios</div>
+    <div class="grid grid-cols-3 gap-6 p-6">
+      <div class="bg-white border hover:bg-gray-300 rounded-2xl shadow-xl/30 p-4 flex flex-col items-center">
+        <img class="w-24 h-24 object-cover rounded-full mb-2" src="images/roupas.jpg" alt="Roupas">
+        <h3 class="font-bold text-lg border-b-4 text-center mb-1">Roupas</h3>
+        <p class="text-gray-600 border-b-4 text-center">Roupas estilosas para seu pet.</p>
+        <p class="text-gray-600 font-sm text-center">R$:<span class="text-2xl  hover:blur text-green-600">129,99</span>
+        </p>
+      </div>
+      <div class="bg-white border hover:bg-gray-300 rounded-2xl shadow-xl/30 p-4 flex flex-col items-center">
+        <img class="w-24 h-24 object-cover rounded-full mb-2" src="images/gravata.jpg" alt="Gravata">
+        <h3 class="font-bold text-lg border-b-4 text-center mb-1">Gravata</h3>
+        <p class="text-gray-600 border-b-4 text-center">Gravatas divertidas para ocasiões especiais.</p>
+        <p class="text-gray-600 font-sm text-center">R$:<span class="text-2xl hover:blur text-green-600">113,99</span>
+        </p>
+      </div>
+      <div class="bg-white hover:bg-gray-300 border rounded-2xl shadow-xl/30 shadow-lp-4 flex flex-col items-center">
+        <img class="w-24 h-24 object-cover rounded-full mb-2" src="images/coleira.jpg" alt="Coleira">
+        <h3 class="font-bold text-lg border-b-4 text-center mb-1">Coleira</h3>
+        <p class="text-gray-600 border-b-4 text-center">Coleiras confortáveis e seguras.</p>
+        <p class="text-gray-600 font-sm text-center">R$:<span class="text-2xl hover:blur text-green-600">149,99</span>
+        </p>
+      </div>
+    </div>
+    <div class="p-2.5 text-center font-medium ml-5 mr-60  xl:w-45 bg-blue-800 text-white rounded-2xl">Brinquedos</div>
+    <div class="grid grid-cols-3 gap-6 p-6">
+      <div class="border rounded-2xl  bg-white hover:bg-gray-300 p-4 flex flex-col items-center">
+        <img class="w-24 h-24 object-cover shadow-xl/30  text-cente rounded-full mb-2" src="images/brinquedo.jpg"
+          alt="Brinquedo">
+        <h3 class="font-bold text-lg border-b-4 text-center mb-1">Ossinho</h3>
+        <p class="text-gray-600 border-b-4 text-center">Diversão garantida para seu pet.</p>
+        <p class="text-gray-600 font-sm text-center">R$:<span class="text-2xl  hover:blur text-green-600">79,99</span>
+        </p>
+      </div>
+      <div class="bg-white hover:bg-gray-300 shadow-xl/30  border rounded-2xl shadow-xl p-4 flex flex-col items-center">
+        <img class="w-24 h-24 rounded-full mb-2" src="images/puxador.jpg" alt="Puxador">
+        <h3 class="font-bold text-lg border-b-4 text-center mb-1">Puxador</h3>
+        <p class="text-gray-600 border-b-4 text-center">Ideal para brincadeiras de puxar.</p>
+        <p class="text-gray-600 font-sm text-center">R$:<span class="text-2xl hover:blur text-green-600">99,99</span>
+        </p>
+      </div>
+      <div class="bg-white hover:bg-gray-300 shadow-xl/30  border rounded-2xl shadow-xl p-4 flex flex-col items-center">
+        <img class="w-24 h-24 object-cover rounded-full mb-2" src="images/arranhador.jpg" alt="Arranhador">
+        <h3 class="font-bold text-lg border-b-4 text-center mb-1">Arranhador</h3>
+        <p class="text-gray-600 border-b-4 text-center">Perfeito para gatos afiarem as unhas.</p>
+        <p class="text-gray-600 font-sm text-center">R$:<span class="text-2xl hover:blur text-green-600">429,99</span>
+        </p>
+      </div>
+    </div>
+
+    <h2 class="p-4 text-center font-medium ml-5 mr-40 bg-blue-500 text-white  rounded-2xl" id="depoimentos">Depoimentos</h2>
+    <div class="bg-white hover:bg-gray-500 shadow-2xl/30  rounded-2xl shadow-xl p-4 flex flex-col items-center">
+      <div class="p-4 w-full bg-gray-200 mb-6 hover:bg-gray-300  rounded-2xl">
+        <img class="w-15 h-15 mb-2 rounded-full" src="images/pedro.jpg">
+        <h3 class="font-bold text-2x1">Caio Sousa</h3>
+        <p>⭐⭐⭐⭐⭐</p>
+        <p class="opacity-15">11/06/2025</p>
+        <p class="">Eu gostei muito da entrega e dos produtos!</p>
+      </div>
+      <div class="rounded-2xl w-full mb-6 p-4 bg-gray-200 hover:bg-gray-300">
+        <img class="w-15 mb-2 h-15 rounded-full" src="images/let.jpg">
+        <h3 class="font-bold text-2x1">Leticia Ribeiro</h3>
+        <p>⭐⭐⭐⭐⭐</p>
+        <p class="opacity-15">25/04/2025</p>
+        <p class="">A entrega foi super rapida!😁</p>
+      </div>
+      <div class="rounded-2xl w-full mb-6 p-4 bg-gray-200 hover:bg-gray-300">
+        <img class="w-15 mb-2 h-15 rounded-full" src="images/atilio.jpg">
+        <h3 class="font-bold text-2xl">Atilio Hector</h3>
+        <p>⭐⭐⭐</p>
+        <p class="opacity-25">11/06/2025</p>
+        <p class="mb-6">Site é bem dinamico e facil de entender mas faltou mas opções de produtos!</p>
+      </div>
+    </div>
+    <div>
+      <h2 class="p-4 m-4 text-center font-medium ml-5 mr-40 bg-blue-500 text-white rounded-2xl" id="contato">Contato</h2>
+      <div class="p-4 w-full bg-gray-200 mb-6 hover:bg-gray-300 shadow-2xl/30 rounded-2xl">
+        <h3 class="font-serif">Digite seu nome:</h3>
+        <input class="border-2 pl-8 hover:border-blue-600 rounded-2xl mb-7">
+        <h3 class="font-serif">Email:</h3>
+        <input class="border-2 pl-8 focus:border-blue-600 rounded-2xl mb-7" placeholder="exemplo@gmail.com">
+        <h3 class="font-serif">Mensagem:</h3>
+        <input class="border-2 p-14 focus:border-blue-600 rounded-2xl mb-7">
+        <button class="bg-blue-400 m-2 p-2 text-white rounded-2xl hover:bg-blue-500 ">Enviar</button>
+      </div>
+    </div>
+
+  </div>
 </body>
 
 </html>
